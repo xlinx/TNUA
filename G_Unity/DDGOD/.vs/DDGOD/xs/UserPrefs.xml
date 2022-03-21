@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{0A1EAAD6-5D06-C578-D828-9CCA56F0A652}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/UdpClient.cs">
+    <Files>
+      <File FileName="Assets/CameraDrog.cs" Line="21" Column="1" />
+      <File FileName="Assets/xlinx.cs" Line="32" Column="7" />
+      <File FileName="Assets/UdpServer.cs" Line="108" Column="2" />
+      <File FileName="Assets/UdpClient.cs" Line="112" Column="2" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="DDGOD" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="UdpClient.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="aafba39a-bab0-4d47-a7c0-c7560f03df74" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
