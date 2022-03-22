@@ -7,6 +7,7 @@ using System.Linq;
 using System.Net;
 using System.Net.Sockets;
 using System.Text;
+using System.Threading;
 using uPLibrary.Networking.M2Mqtt;
 using uPLibrary.Networking.M2Mqtt.Messages;
 
@@ -74,6 +75,12 @@ public class MqttEvents : MonoBehaviour
     }
     // Use this for initialization
     void Awake()
+    {
+        // Thread t = new Thread(initMQTT);
+        // t.Start();
+        initMQTT();
+    }
+    void initMQTT()
     {
 
         // create client instance 
