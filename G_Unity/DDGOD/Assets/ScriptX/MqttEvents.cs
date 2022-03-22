@@ -79,6 +79,7 @@ public class MqttEvents : MonoBehaviour
         // Thread t = new Thread(initMQTT);
         // t.Start();
         initMQTT();
+        send("U_onlinle","YSL");
     }
     void initMQTT()
     {
@@ -90,11 +91,15 @@ public class MqttEvents : MonoBehaviour
         // register to message received 
         client.MqttMsgPublishReceived += client_MqttMsgPublishReceived;
         client.MqttMsgDisconnected += client_MqttMsgDisconnected;
+
+        
         /*
         //这部分事件不常用,按需添加
         client.MqttMsgSubscribed += client_MqttMsgSubscribed;
         client.MqttMsgUnsubscribed += client_MqttMsgUnsubscribed;
-        client.MqttMsgPublished += client_MqttMsgPublished;*/
+        client.MqttMsgPublished += client_MqttMsgPublished;
+        */
+        
         onBeginCall.Invoke(this);
         if (autoConnect) connect();
 
